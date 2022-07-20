@@ -36,5 +36,4 @@ When TightVNC is installed and configured, enable it on Systemd so it will start
 Feel free to contribute to this project:
 
 * Give a GitHub ⭐ if you like it.
-* Create an Issue to make a feature request, report a bug or share an idea.
-* Create a Pull Request if you want to share code or anything useful to this project.
+* Feel free to collaborate with ideas, issues and/or pull requests.
