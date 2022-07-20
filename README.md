@@ -2,10 +2,9 @@
 
 Raspberry pi dual monitor dashboards rotating browser tabs in kiosk mode. Booting directly into kiosk mode chrmium. Perfect for dashboards and build monitors.
 
-<br>
 
 ### Features
-___
+
 
 * Selectable Browser (Firefox,Chromium)
 * Configurable refresh of the browser (every 5 minutes by default)
@@ -28,7 +27,14 @@ It is easier to setup raspberry pi if you do the following:
 4.  Setup TightVNC for remote graphical interface
 
 ```
-### Systemd notes
----
+When TightVNC is installed and configured, enable it on Systemd so it will start everytime the OS does.
 
-Systemd timers are used to schedule the page switch so the resolution can be specified in seconds Systemd has support for integration with the graphical user session (see systemd.special(7), target graphical-session.target) but this integration is not implemented by any of the session managers yet. Instead
+<br>
+
+# Contributing
+
+Feel free to contribute to this project:
+
+* Give a GitHub ⭐ if you like it
+* Create an Issue to make a feature request, report a bug or share an idea.
+* Create a Pull Request if you want to share code or anything useful to this project.
